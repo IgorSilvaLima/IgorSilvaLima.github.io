@@ -2,6 +2,10 @@ body {
     background-color: #A0AAB2;
 }
 
+.meu-nome {
+    text-align: center;
+}
+
 h1 { 
  font-family: Arial, Helvetica, sans-serif , Haettenschweiler, 'Arial Narrow Bold', sans-serif ; color: black;
 }
@@ -13,23 +17,26 @@ h1 {
 #paragrafo2, #paragrafo3 {
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.classe0 {
-    font-size: 50px;
+#foto {
+    border-radius: 50%;
+    float: left;
+    height: 380px;
+    padding: 10px;
+    background-color: aquamarine;
 }
 
-.classe1 {
-    font-size: 40px;
+.image-container {
+    height: 400px;
+    position: relative;
 }
 
-.classe2 {
-    font-size: 30px;
+div {
+    border: 2px solid green;
 }
 
-.classe3 {
-    font-size: 20px;
-}
-
-.classe4 {
-    font-size: 10px;
+#paragrafo2 {
+    position:absolute;
+    right: 05%;
+    top: 40%;
+    text-align: center;
 }
