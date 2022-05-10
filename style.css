@@ -1,5 +1,6 @@
 body {
     background-color: #A0AAB2;
+    padding: 4%;
 }
 
 .meu-nome {
@@ -30,13 +31,12 @@ h1 {
     position: relative;
 }
 
-div {
-    border: 2px solid green;
-}
-
 #paragrafo2 {
     position:absolute;
-    right: 05%;
+    left: 25%;
     top: 40%;
     text-align: center;
 }
+ul li:nth-child(odd) {
+    background-color: gray;
+}}
